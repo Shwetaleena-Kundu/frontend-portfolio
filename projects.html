@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Frontend projects by Shwetaleena Kundu: Freshhh, Staynest, HireFlow, FreshCart, Weather API, and AETHER."
+  >
+  <title>Projects | Shwetaleena Kundu</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html" aria-label="Shwetaleena Kundu, Home">SK</a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="mobile-talk">Let's Talk</a>
+      </div>
+
+      <a class="button button-primary nav-cta" href="contact.html">
+        Let's Talk
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projects-hero container" aria-labelledby="projects-page-title">
+      <p class="eyebrow">My Work</p>
+      <h1 id="projects-page-title">Projects built<br>with purpose.</h1>
+      <p>
+        Websites and interfaces I've designed and developed,
+        from responsive storefronts to React applications.
+      </p>
+    </section>
+
+    <section class="projects-showcase container" aria-label="My projects">
+      <!-- 01: Freshhh -->
+      <article class="showcase-project" id="freshhh">
+        <div class="showcase-visual showcase-freshhh">
+          <img src="assets/images/freshhh.jpg" alt="Screenshot of the Freshhh grocery website homepage" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">01</p>
+          <h2>Freshhh</h2>
+          <p class="project-subtitle">A grocery website for everyday essentials.</p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li>
+          </ul>
+
+          <p class="project-description">
+            A responsive grocery website where visitors can browse products
+            and explore categories through a shopping-focused interface.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://freshhh-website.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Freshhh live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/Freshhh-website"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Freshhh GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02: Staynest -->
+      <article class="showcase-project showcase-reversed" id="staynest">
+        <div class="showcase-visual showcase-staynest">
+          <img src="assets/images/staynest.jpg" alt="Screenshot of the Staynest travel website homepage" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">02</p>
+          <h2>Staynest</h2>
+          <p class="project-subtitle">
+            A travel website for exploring stays and destinations.
+          </p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+
+          <p class="project-description">
+            Visitors can explore stays and destinations, search listings,
+            and save places to a wishlist in a responsive travel interface.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://staynest-beige.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Staynest live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/staynest"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Staynest GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03: HireFlow -->
+      <article class="showcase-project" id="hireflow">
+        <div class="showcase-visual showcase-hireflow">
+          <img src="assets/images/hireflow.jpg" alt="Screenshot of the HireFlow job application dashboard" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">03</p>
+          <h2>HireFlow</h2>
+          <p class="project-subtitle">A React app for tracking job applications.</p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>React</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+
+          <p class="project-description">
+            A job application tracker with a dashboard and dedicated pages
+            for applications, interviews, and job opportunities.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://hireflow-drab.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open HireFlow live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/HireFlow"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open HireFlow GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <div class="load-more-wrap" id="load-more-wrap">
+        <button class="button button-outline" id="load-more-projects" type="button"
+                aria-controls="freshcart weather aether" aria-expanded="false">
+          Load more projects ↓
+        </button>
+      </div>
+
+      <!-- 04: FreshCart -->
+      <article class="showcase-project showcase-reversed" id="freshcart" hidden>
+        <div class="showcase-visual showcase-freshcart">
+          <img src="assets/images/freshcart.jpg" alt="Screenshot of the FreshCart multi-vendor store" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">04</p>
+          <h2>FreshCart</h2>
+          <p class="project-subtitle">A mobile-first multi-vendor store.</p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>React</li><li>Tailwind CSS</li><li>JavaScript</li>
+          </ul>
+
+          <p class="project-description">
+            A product catalogue and dynamic cart where users can add items
+            from different stores, adjust quantities, and see totals grouped
+            by store.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://freshcart-multi-vendor-store.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open FreshCart live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/freshcart-multi-vendor-store"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open FreshCart GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05: Weather API -->
+      <article class="showcase-project" id="weather" hidden>
+        <div class="showcase-visual showcase-weather">
+          <img src="assets/images/weather.jpg" alt="Screenshot of the Atmos weather dashboard" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">05</p>
+          <h2>Weather API</h2>
+          <p class="project-subtitle">A weather lookup project using an API.</p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>API</li>
+          </ul>
+
+          <p class="project-description">
+            A frontend project that retrieves weather information from an API
+            and presents it in an easy-to-read interface.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://weather-api-project-9zx2.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Weather API live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/Weather-API-Project"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open Weather API GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06: AETHER -->
+      <article class="showcase-project showcase-reversed" id="aether" hidden>
+        <div class="showcase-visual showcase-aether">
+          <img src="assets/images/aether.jpg" alt="Screenshot of the AETHER urban intelligence homepage" loading="lazy">
+        </div>
+
+        <div class="showcase-details">
+          <p class="project-number">06</p>
+          <h2>AETHER</h2>
+          <p class="project-subtitle">An interactive smart city concept.</p>
+
+          <ul class="showcase-tags" aria-label="Technologies used">
+            <li>React</li><li>TypeScript</li><li>Tailwind CSS</li>
+          </ul>
+
+          <p class="project-description">
+            A city explorer concept with animated navigation between
+            urban systems, including environment and mobility views.
+          </p>
+
+          <div class="project-actions">
+            <a class="button button-primary"
+               href="https://aether-urban-intelligence.vercel.app/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open AETHER live site in a new tab">
+              View live site →
+            </a>
+            <a class="project-code-label"
+               href="https://github.com/Shwetaleena-Kundu/Aether"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Open AETHER GitHub repository in a new tab">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <div class="load-more-wrap" id="show-less-wrap" hidden>
+        <button class="button button-outline" id="show-less-projects" type="button"
+                aria-controls="freshcart weather aether">
+          Show less ↑
+        </button>
+      </div>
+    </section>
+
+    <section class="projects-contact" aria-labelledby="projects-contact-title">
+      <div class="container">
+        <h2 id="projects-contact-title">Interested in working together?</h2>
+        <p>
+          I'd love to hear about your project and discuss how
+          we can bring it to life.
+        </p>
+        <a class="button button-accent" href="contact.html">
+          Get in touch
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="logo" href="index.html" aria-label="Shwetaleena Kundu, Home">
+        SK
+      </a>
+
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="footer-social"
+         href="https://github.com/Shwetaleena-Kundu"
+         target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+    </div>
+
+    <p class="copyright">© 2026 Shwetaleena Kundu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
